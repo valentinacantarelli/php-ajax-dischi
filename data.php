@@ -51,13 +51,13 @@ $database = [
     [
 		'title' => 'Hard Wired',
 		'author' => 'Dave Weckl',
-		'year' => 1988,
+		'year' => 1987,
 		'poster' => 'https://img.discogs.com/KOBsqQwKiNKH-q927oHMyVdDzSo=/fit-in/596x596/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6406665-1418464475-6120.jpeg.jpg'
 	],
     [
 		'title' => 'Bad',
 		'author' => 'Michael Jackson',
-		'year' => 1988,
+		'year' => 1994,
 		'poster' => 'https://m.media-amazon.com/images/I/71K9CbNZPsL._SS500_.jpg'
 	],
 ];

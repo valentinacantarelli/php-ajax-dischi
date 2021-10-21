@@ -12,6 +12,10 @@ include __DIR__ ."/data.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dischi</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -23,6 +27,8 @@ include __DIR__ ."/data.php";
                 <div class="card">        
                     <img class="copertina"  src="<?php echo $albums['poster'];?>" alt="">
                     <h3><?php echo $albums['title']?></h3>
+                    <p class="sottotitolo"><?php echo $albums['author']?></p>   
+                    <p class="sottotitolo"><?php echo $albums['year']?></p>
                 </div>
             <?php }?>    
         </div>
