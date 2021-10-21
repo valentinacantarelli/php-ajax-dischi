@@ -17,14 +17,17 @@ header{
 .container{
     display: flex;
     flex-wrap: wrap;
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 60px;
+    justify-content: center;
 }
 .card{
     height: 250px;
     width:150px;
     background-color: #2e3a46;
+    margin: 15px;
+    text-align: center;
    
 }
 .copertina{
