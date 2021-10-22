@@ -13,6 +13,7 @@ include __DIR__ ."/data.php";
     <title>Dischi</title>
     <link rel="stylesheet" href="css/style.css">
     <!-- google fonts -->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
@@ -32,6 +33,13 @@ include __DIR__ ."/data.php";
                 </div>
             <?php }?>    
         </div>
+        <section>
+            <h1> miao miao</h1>
+                <ul>
+                    <li>ciao</li>
+                </ul>
+            
+        </section>
 
     </main>
     
