@@ -12,18 +12,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+       <img class="logo" src="./spotify-logo.png" alt="logo"> 
+    </header>
+    <main>
     <div id="root">
     <div class="container">
             
-                <div class="card">        
-                    <img class="copertina"  src="" alt="">
-                    <h3></h3>
-                    <p class="sottotitolo"></p>   
-                    <p class="sottotitolo"></p>
+                <div class="card" v-for="(album,index) in albums">        
+                    <img class="copertina"  :src="album.poster" alt="copertina">
+                    <h3>{{album.title}}</h3>
+                    <p class="sottotitolo">{{album.author}}</p>   
+                    <p class="sottotitolo">{{album.year}}</p>
                 </div>
                
         </div>
     </div>
+    </main>
+    
 
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>  
